@@ -22,15 +22,15 @@ public class IrrigationSystems {
 
         // Crop Type
         System.out.print("Enter crop type (e.g., tomatoes): ");
-        String cropType = scanner.nextLine();
+        String cropType = scanner.next();
 
         // Growth Stage
         System.out.print("Enter growth stage (e.g., seedling, vegetative, flowering, fruiting): ");
-        String growthStage = scanner.nextLine();
+        String growthStage = scanner.next();
 
         // Soil Type
         System.out.print("Enter soil type (sandy, loamy, clay): ");
-        String soilType = scanner.nextLine();
+        String soilType = scanner.next();
 
         // Water Availability
         System.out.print("Enter available water in storage (liters): ");
